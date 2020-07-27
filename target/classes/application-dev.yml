@@ -1,0 +1,8 @@
+server:
+  port: 8090
+
+
+user:
+    userName:dev
+    age:18
+    sex:true
