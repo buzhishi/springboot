@@ -8,6 +8,8 @@ public class Cat implements Animals{
       return "Cat{}";
    }
 
- 
+   public String v1() {
+      return "v1";
+   }
 
 }
