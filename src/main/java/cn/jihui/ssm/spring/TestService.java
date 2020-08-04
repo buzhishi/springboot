@@ -29,7 +29,7 @@ public class TestService {
         System.out.println(animals);
     }
 
-    @PostConstruct
+//    @PostConstruct
     public  void init(){
         System.out.println("我被初始化");
     }

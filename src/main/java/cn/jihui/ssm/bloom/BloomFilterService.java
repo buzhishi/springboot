@@ -13,6 +13,8 @@ import java.util.List;
 public class BloomFilterService {
     private    BloomFilter<Integer> filter;
 
+
+
     /**
      * @PostConstruct 程序启动时候加载
      */

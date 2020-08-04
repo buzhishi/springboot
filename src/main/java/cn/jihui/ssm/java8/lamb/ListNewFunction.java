@@ -1,4 +1,11 @@
 package cn.jihui.ssm.java8.lamb;
 
-public interface ListNewFunction {
+
+import java.util.List;
+
+@FunctionalInterface
+public interface ListNewFunction<T> {
+
+    List<T> listNew();
+
 }
